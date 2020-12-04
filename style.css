@@ -1,0 +1,67 @@
+/* Side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #4a4f55;
+    overflow: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+
+/* Navigation Menu Links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: .3s;
+}
+
+/* Mouse over nav links changes their color */
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+/* Postion and style close button - will eventually be 10Talents Bee Logo */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - pushes everything in the "Main" Div to the right */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/* Style changes for smaller viewports i.e. Pads, Phones */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+/* End sideNav Block*/
+
+
+/* Card Styling */
+.card {
+    display: flex;
+    flex-direction: row;
+    border: black;
+    border-width: 2px;
+    /*width: 150px;
+    height: 250px;*/
+    margin: auto;
+}
