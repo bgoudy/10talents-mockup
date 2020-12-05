@@ -52,7 +52,7 @@
     .sidenav a {font-size: 18px;}
 }
 
-/* End sideNav Block*/
+/* End sideNav Block */
 
 
 /* Card Styling */
@@ -64,4 +64,8 @@
     /*width: 150px;
     height: 250px;*/
     margin: auto;
+}
+
+.card:hover {
+    box-shadow:  0 8px 16px 0 black;
 }
